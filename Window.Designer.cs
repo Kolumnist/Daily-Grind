@@ -49,9 +49,8 @@
 			TodoList.BorderStyle = BorderStyle.None;
 			resources.ApplyResources(TodoList, "TodoList");
 			TodoList.FormattingEnabled = true;
-			TodoList.Items.AddRange(new object[] { resources.GetString("TodoList.Items"), resources.GetString("TodoList.Items1"), resources.GetString("TodoList.Items2"), resources.GetString("TodoList.Items3"), resources.GetString("TodoList.Items4"), resources.GetString("TodoList.Items5") });
 			TodoList.Name = "TodoList";
-			TodoList.SelectedIndexChanged += TodoList_SelectedIndexChanged;
+			TodoList.ItemCheck += TodoList_ItemCheck;
 			// 
 			// Window
 			// 
@@ -59,16 +58,13 @@
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = AutoScaleMode.Font;
 			BackColor = SystemColors.Window;
-			ControlBox = true;
 			Controls.Add(TodoList);
 			Controls.Add(ButtonConfigure);
-			HelpButton = false;
 			MaximizeBox = false;
 			MdiChildrenMinimizedAnchorBottom = false;
-			MinimizeBox = true;
 			Name = "Window";
 			ShowIcon = false;
-			Load += Form1_Load;
+			Load += Window_Load;
 			ResumeLayout(false);
 		}
 
