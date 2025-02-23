@@ -8,7 +8,6 @@ namespace Daily_Grind
 
 		private bool currentlyOrderingItems = false;
 		private string txtContent = "";
-		private string[] todos = [];
 
 		public Window()
 		{
@@ -21,7 +20,7 @@ namespace Daily_Grind
 		private void FillTodoList()
 		{
 			txtContent = File.ReadAllText(txtPath);
-			todos = txtContent.Split('\n');
+			string[] todos = txtContent.Split('\n');
 			TodoList.Items.Clear();
 			TodoList.Items.AddRange(todos);
 		}

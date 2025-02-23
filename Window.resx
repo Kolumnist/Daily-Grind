@@ -126,20 +126,16 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ButtonConfigure.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sans Serif Collection, 7pt, style=Bold</value>
+    <value>Comic Sans MS, 7pt, style=Bold</value>
   </data>
   <data name="ButtonConfigure.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ButtonConfigure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 8, 3, 8</value>
   </data>
   <data name="ButtonConfigure.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="ButtonConfigure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 38</value>
+    <value>318, 39</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ButtonConfigure.TabIndex" type="System.Int32, mscorlib">
@@ -164,13 +160,10 @@
     <value>Fill</value>
   </data>
   <data name="TodoList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 38</value>
-  </data>
-  <data name="TodoList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 8, 3, 8</value>
+    <value>0, 39</value>
   </data>
   <data name="TodoList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 173</value>
+    <value>318, 185</value>
   </data>
   <data name="TodoList.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -194,7 +187,11 @@
     <value>False</value>
   </data>
   <data name="TodoBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 38</value>
+    <value>0, 39</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TodoBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 1, 3, 1</value>
   </data>
   <data name="TodoBox.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -203,7 +200,7 @@
     <value>Vertical</value>
   </data>
   <data name="TodoBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 173</value>
+    <value>318, 185</value>
   </data>
   <data name="TodoBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -230,16 +227,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>10, 62</value>
+    <value>11, 24</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>436, 211</value>
+    <value>318, 224</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sans Serif Collection, 9pt</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 8, 3, 8</value>
+    <value>Comic Sans MS, 9pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Daily Grind</value>
