@@ -15,6 +15,7 @@ namespace Daily_Grind
 			InitializeComponent();
 
 			FillTodoList();
+			TodoBox.Text = txtContent;
 		}
 
 		private void FillTodoList()
@@ -25,19 +26,28 @@ namespace Daily_Grind
 			TodoList.Items.AddRange(todos);
 		}
 
-		private void WriteTodos()
-		{
-			File.WriteAllText(txtPath, "");
-			FillTodoList();
-		}
-
 		private void Window_Load(object sender, EventArgs e)
 		{
 		}
 
 		private void ButtonConfigure_Click(object sender, EventArgs e)
 		{
+			if (TodoBox.Enabled)
+			{
+				TodoBox.Enabled = false;
+				TodoBox.Visible = false;
+				ButtonConfigure.Text = "Configure";
 
+				string newTodos = TodoBox.Text;
+				File.WriteAllText(txtPath, newTodos);
+				FillTodoList();
+			}
+			else
+			{
+				TodoBox.Enabled = true;
+				TodoBox.Visible = true;
+				ButtonConfigure.Text = "Save";
+			}
 		}
 
 		private void TodoList_ItemCheck(object sender, ItemCheckEventArgs e)

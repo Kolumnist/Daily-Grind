@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ButtonConfigure.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sans Serif Collection, 9pt, style=Bold</value>
+    <value>Sans Serif Collection, 7pt, style=Bold</value>
   </data>
   <data name="ButtonConfigure.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -139,7 +139,7 @@
     <value>No</value>
   </data>
   <data name="ButtonConfigure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 49</value>
+    <value>436, 38</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ButtonConfigure.TabIndex" type="System.Int32, mscorlib">
@@ -158,19 +158,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ButtonConfigure.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="TodoList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="TodoList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 49</value>
+    <value>0, 38</value>
   </data>
   <data name="TodoList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 8, 3, 8</value>
   </data>
   <data name="TodoList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>436, 162</value>
+    <value>436, 173</value>
   </data>
   <data name="TodoList.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -185,6 +185,42 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TodoList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TodoBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TodoBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TodoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="TodoBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TodoBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="TodoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 173</value>
+  </data>
+  <data name="TodoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TodoBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TodoBox.Name" xml:space="preserve">
+    <value>TodoBox</value>
+  </data>
+  <data name="&gt;&gt;TodoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TodoBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TodoBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

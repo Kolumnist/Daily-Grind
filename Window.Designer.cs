@@ -31,6 +31,7 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Window));
 			ButtonConfigure = new Button();
 			TodoList = new CheckedListBox();
+			TodoBox = new TextBox();
 			SuspendLayout();
 			// 
 			// ButtonConfigure
@@ -52,12 +53,19 @@
 			TodoList.Name = "TodoList";
 			TodoList.ItemCheck += TodoList_ItemCheck;
 			// 
+			// TodoBox
+			// 
+			TodoBox.BorderStyle = BorderStyle.None;
+			resources.ApplyResources(TodoBox, "TodoBox");
+			TodoBox.Name = "TodoBox";
+			// 
 			// Window
 			// 
 			AllowDrop = true;
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = AutoScaleMode.Font;
 			BackColor = SystemColors.Window;
+			Controls.Add(TodoBox);
 			Controls.Add(TodoList);
 			Controls.Add(ButtonConfigure);
 			MaximizeBox = false;
@@ -66,11 +74,13 @@
 			ShowIcon = false;
 			Load += Window_Load;
 			ResumeLayout(false);
+			PerformLayout();
 		}
 
 		#endregion
 
 		private Button ButtonConfigure;
 		private CheckedListBox TodoList;
+		private TextBox TodoBox;
 	}
 }
