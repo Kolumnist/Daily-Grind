@@ -65,12 +65,14 @@
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = AutoScaleMode.Font;
 			BackColor = SystemColors.Window;
+			ControlBox = false;
 			Controls.Add(TodoBox);
 			Controls.Add(TodoList);
 			Controls.Add(ButtonConfigure);
 			MaximizeBox = false;
 			MdiChildrenMinimizedAnchorBottom = false;
 			Name = "Window";
+			TopMost = true;
 			ShowIcon = false;
 			Load += Window_Load;
 			ResumeLayout(false);
