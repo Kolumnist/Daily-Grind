@@ -4,7 +4,7 @@ namespace Daily_Grind
 {
 	public partial class Window : Form
 	{
-		private readonly string txtPath = "../../../todos.txt";
+		private readonly string txtPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "todos.txt");
 
 		private bool currentlyOrderingItems = false;
 		private string txtContent = "";
